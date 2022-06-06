@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/main_activity" >
+        <action
+            android:id="@+id/action_mainFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_exploreFragment"
+            app:destination="@id/exploreFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_radioFragment"
+            app:destination="@id/radioFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.s4team.java.musiachivem.ui.demolistview.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/radioFragment"
+        android:name="com.s4team.java.musiachivem.ui.demolistview.radio.RadioFragment"
+        android:label="radio_fragment"
+        tools:layout="@layout/radio_fragment" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.s4team.java.musiachivem.ui.demolistview.explore.ExploreFragment"
+        android:label="explore_fragment"
+        tools:layout="@layout/explore_fragment" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.s4team.java.musiachivem.ui.demolistview.account.AccountFragment"
+        android:label="account_fragment"
+        tools:layout="@layout/account_fragment" />
+</navigation>

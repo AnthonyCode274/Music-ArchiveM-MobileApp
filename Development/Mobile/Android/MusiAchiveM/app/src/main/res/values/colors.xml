@@ -7,4 +7,26 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background">#0E0B1F</color>
+    <!--  DESIGN - COLOR STYLE-->
+    <!--    Neutral     -->
+    <color name="neutral1">#EEEEEE</color>
+    <color name="neutral2">#7A7C81</color>
+    <color name="neutral3">#20242F</color>
+    <!--    Brand       -->
+    <color name="brand1">#EF01A0</color>
+    <color name="brand2">#0E0B1F</color>
+    <!--  Gradient  -->
+    <!--    style 1-->
+    <color name="gradient_style1.1">#DD137F</color> <!-- TopLeading -->
+    <color name="gradient_style1.2">#51004D</color> <!-- BottomTrailing -->
+    <!--    style 2-->
+    <color name="gradient_style2.1">#DD137F</color> <!-- TopLeading -->
+    <color name="gradient_style2.2">#51004D</color> <!-- BottomTrailing -->
+    <!--    style 3-->
+    <color name="gradient_style3.1">#8E004C</color> <!-- TopLeading -->
+    <color name="gradient_style3.2">#51004D</color> <!-- BottomTrailing -->
+    <!--  Bottom Navigation Color  -->
+    <color name="bottom_active">@color/brand1</color>
+    <color name="bottom_un_active">#4E4F52</color>
 </resources>
