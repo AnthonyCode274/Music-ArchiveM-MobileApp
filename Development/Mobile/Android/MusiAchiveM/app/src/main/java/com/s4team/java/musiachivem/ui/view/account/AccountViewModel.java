@@ -1,4 +1,4 @@
-package com.s4team.java.musiachivem.ui.demolistview.account;
+package com.s4team.java.musiachivem.ui.view.account;
 
 import androidx.lifecycle.ViewModel;
 

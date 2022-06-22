@@ -1,4 +1,4 @@
-package com.s4team.java.musiachivem.ui.demolistview.explore;
+package com.s4team.java.musiachivem.ui.view.explore;
 
 import androidx.lifecycle.ViewModel;
 

@@ -1,4 +1,4 @@
-package com.s4team.java.musiachivem.ui.demolistview.radio;
+package com.s4team.java.musiachivem.ui.view.radio;
 
 import androidx.lifecycle.ViewModel;
 

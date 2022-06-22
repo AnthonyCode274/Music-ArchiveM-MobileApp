@@ -25,22 +25,22 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.s4team.java.musiachivem.ui.demolistview.home.HomeFragment"
+        android:name="com.s4team.java.musiachivem.ui.view.home.HomeFragment"
         android:label="home_fragment"
         tools:layout="@layout/home_fragment" />
     <fragment
         android:id="@+id/radioFragment"
-        android:name="com.s4team.java.musiachivem.ui.demolistview.radio.RadioFragment"
+        android:name="com.s4team.java.musiachivem.ui.view.radio.RadioFragment"
         android:label="radio_fragment"
         tools:layout="@layout/radio_fragment" />
     <fragment
         android:id="@+id/exploreFragment"
-        android:name="com.s4team.java.musiachivem.ui.demolistview.explore.ExploreFragment"
+        android:name="com.s4team.java.musiachivem.ui.view.explore.ExploreFragment"
         android:label="explore_fragment"
         tools:layout="@layout/explore_fragment" />
     <fragment
         android:id="@+id/accountFragment"
-        android:name="com.s4team.java.musiachivem.ui.demolistview.account.AccountFragment"
+        android:name="com.s4team.java.musiachivem.ui.view.account.AccountFragment"
         android:label="account_fragment"
         tools:layout="@layout/account_fragment" />
 </navigation>

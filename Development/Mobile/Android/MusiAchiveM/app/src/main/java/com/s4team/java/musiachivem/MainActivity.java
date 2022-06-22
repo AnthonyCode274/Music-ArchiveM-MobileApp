@@ -7,10 +7,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.s4team.java.musiachivem.ui.demolistview.account.AccountFragment;
-import com.s4team.java.musiachivem.ui.demolistview.explore.ExploreFragment;
-import com.s4team.java.musiachivem.ui.demolistview.home.HomeFragment;
-import com.s4team.java.musiachivem.ui.demolistview.radio.RadioFragment;
+import com.s4team.java.musiachivem.ui.view.account.AccountFragment;
+import com.s4team.java.musiachivem.ui.view.explore.ExploreFragment;
+import com.s4team.java.musiachivem.ui.view.home.HomeFragment;
+import com.s4team.java.musiachivem.ui.view.radio.RadioFragment;
 
 
 public class MainActivity extends AppCompatActivity {

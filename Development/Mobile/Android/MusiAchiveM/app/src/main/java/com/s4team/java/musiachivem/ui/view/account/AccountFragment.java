@@ -1,4 +1,4 @@
-package com.s4team.java.musiachivem.ui.demolistview.explore;
+package com.s4team.java.musiachivem.ui.view.account;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -14,24 +14,24 @@ import android.view.ViewGroup;
 
 import com.s4team.java.musiachivem.R;
 
-public class ExploreFragment extends Fragment {
+public class AccountFragment extends Fragment {
 
-    private ExploreViewModel mViewModel;
+    private AccountViewModel mViewModel;
 
-    public static ExploreFragment newInstance() {
-        return new ExploreFragment();
+    public static AccountFragment newInstance() {
+        return new AccountFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.explore_fragment, container, false);
+        return inflater.inflate(R.layout.account_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(ExploreViewModel.class);
+        mViewModel = new ViewModelProvider(this).get(AccountViewModel.class);
         // TODO: Use the ViewModel
     }
 

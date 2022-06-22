@@ -1,4 +1,4 @@
-package com.s4team.java.musiachivem.ui.demolistview.radio;
+package com.s4team.java.musiachivem.ui.view.home;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -13,25 +13,27 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.s4team.java.musiachivem.R;
+import com.s4team.java.musiachivem.ui.view.home.banner.BannerSlider;
 
-public class RadioFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
-    private RadioViewModel mViewModel;
+    private HomeViewModel mViewModel;
+    private BannerSlider bannerSlider;
 
-    public static RadioFragment newInstance() {
-        return new RadioFragment();
+    public static HomeFragment newInstance() {
+        return new HomeFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.radio_fragment, container, false);
+        return inflater.inflate(R.layout.home_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(RadioViewModel.class);
+        mViewModel = new ViewModelProvider(this).get(HomeViewModel.class);
         // TODO: Use the ViewModel
     }
 
